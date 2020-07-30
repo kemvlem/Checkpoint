@@ -17,8 +17,10 @@ CREATE A FUNCTION THAT RETURNS THE BOOLEAN true
 
 */
 
-function example() {}
-
+function example() {
+  return true;
+}
+   
 /*
 QUESTION 1
 
@@ -27,7 +29,7 @@ CREATE A FUNCTION THAT RETURNS THE BOOLEAN false
 */
 
 function firstFunction() {
-  // YOUR CODE HERE
+  return false; // YOUR CODE HERE
 }
 
 /*
@@ -38,9 +40,9 @@ CREATE A FUNCTION THAT RETURNS THE STRING 'hello world'
 */
 
 function helloWorld() {
-  // YOUR CODE HERE
+ let string = 'hello world'
 }
-
+ return string
 /*
 QUESTION 3
 
@@ -69,9 +71,11 @@ concatQuestion('blake') ===> 'hello blake'
 */
 
 function concatQuestion(str) {
-  // YOUR CODE HERE
+ str1 = 'hello '
+ return str1 
+ // YOUR CODE HERE
 }
-
+concatQuestion('blake')
 /*
 QUESTION 5
 
@@ -85,9 +89,9 @@ subtraction(1, 2) ===> -1
 */
 
 function subtraction(num1, num2) {
-  // YOUR CODE HERE
+  return num1 - num2;// YOUR CODE HERE
 }
-
+subtraction(2,1)
 /*
 QUESTION 6
 
@@ -101,9 +105,9 @@ multiplication(2, 0) ===> 0
 */
 
 function multiplication(num1, num2) {
-  // YOUR CODE HERE
+  return num1 * num2 // YOUR CODE HERE
 }
-
+multiplication(2,1)
 /*
 QUESTION 7
 
@@ -117,9 +121,9 @@ square(4) ===> 16
 */
 
 function square(num) {
-  // YOUR CODE HERE
+return num ** 4; // YOUR CODE HERE
 }
-
+square (16)
 /*
 QUESTION 8
 
@@ -134,7 +138,8 @@ e.g.
 var answerToQuestion8;
 
 function question8() {
-  // YOUR CODE HERE
+ var str = 'we can save return values in variables'
+ return str // YOUR CODE HERE
 }
 
 answerToQuestion8 = question8();
