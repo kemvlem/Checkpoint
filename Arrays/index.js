@@ -39,10 +39,10 @@ pushTrue([1,2,3]) ===> [1, 2, 3, 'last element']
 */
 
 function pushString(arr) {
-  // CODE HERE
+  arr[arr.length] = value// CODE HERE
   console.log(arr);
 }
-
+return arr
 /*
 QUESTION 2
 

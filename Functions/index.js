@@ -40,9 +40,9 @@ CREATE A FUNCTION THAT RETURNS THE STRING 'hello world'
 */
 
 function helloWorld() {
- let string = 'hello world'
+return('hello world')
 }
- return string
+
 /*
 QUESTION 3
 
@@ -56,7 +56,7 @@ YOU WILL HAVE TO EDIT THE FUNCTION DECLARATION (the line where the key word 'fun
 */
 
 function question3(param) {
-  // YOUR CODE HERE
+return(param)
 }
 
 /*
@@ -72,10 +72,12 @@ concatQuestion('blake') ===> 'hello blake'
 
 function concatQuestion(str) {
  str1 = 'hello '
- return str1 
- // YOUR CODE HERE
+  return (str1 + str)
 }
-concatQuestion('blake')
+
+
+
+
 /*
 QUESTION 5
 
@@ -91,7 +93,7 @@ subtraction(1, 2) ===> -1
 function subtraction(num1, num2) {
   return num1 - num2;// YOUR CODE HERE
 }
-subtraction(2,1)
+
 /*
 QUESTION 6
 
@@ -107,7 +109,7 @@ multiplication(2, 0) ===> 0
 function multiplication(num1, num2) {
   return num1 * num2 // YOUR CODE HERE
 }
-multiplication(2,1)
+
 /*
 QUESTION 7
 
@@ -121,9 +123,9 @@ square(4) ===> 16
 */
 
 function square(num) {
-return num ** 4; // YOUR CODE HERE
+return(num ** 2); // YOUR CODE HERE
 }
-square (16)
+
 /*
 QUESTION 8
 
