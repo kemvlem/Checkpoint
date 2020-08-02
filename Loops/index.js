@@ -28,7 +28,8 @@ CREATE A FUNCTION THAT ACCEPTS ONE ARGUMENT, THE NUMBER OF TIMES IT WILL CONSOLE
 */
 
 function dynamicHelloWorld(num) {
- for (var i =)
+ for (var i = 0; i < num; i++)
+ console.log('hello world')
 }
 
 /*
