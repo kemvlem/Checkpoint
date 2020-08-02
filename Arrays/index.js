@@ -39,10 +39,10 @@ pushTrue([1,2,3]) ===> [1, 2, 3, 'last element']
 */
 
 function pushString(arr) {
-  arr[arr.length] = value// CODE HERE
-  console.log(arr);
+  arr[arr.length] = 'last element'// CODE HERE
+  return arr
 }
-return arr
+
 /*
 QUESTION 2
 
@@ -58,8 +58,11 @@ mutateZeroElem([1,2,3]) ===> [1, 2, 3, true]
 */
 
 function push(array, value) {
-  // CODE HERE
+   array[array.length] = value// CODE HERE
+  return array
 }
+
+
 
 /*
 QUESTION 3
